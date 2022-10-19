@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/bootstrap.css"/>
+    <link rel="stylesheet" href="../../css/csFondosCarros.css"/>
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css"/>-->
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg"  style="background-color: #353a37;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <a href="../../index.html"> <img src="../../images/logoChido.png" alt="Logo Museo" width="100" height="100"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../../carrosClasicos.html" style="color:white;" >Carros Clasicos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../../carrosDeportivos.html" style="color:white;">Carros deportivos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../../carrosElectricos.html" style="color:white;">Carros electricos</a>
+          </li>
+      </div>
+      <a href="../../formulario.php"> 
+        <button type="button" class="btn btn-outline-danger">Colabora con nosotros</button>
+      </a>
+    </div>
+  </nav> 
+
+  <!--<div class="coverIndex d-flex flex-column mb-3 justify-content-center align-items-center flex column">
+    <h1 > Museo </h1>
+    <p> Los mejores carros, en el mejor museo </p>
+  </div>-->
+
+  <div class="coverMCLaren d-flex flex-column justify-content-center align-items-center flex column">
+    <h1 >BIENVENIDO</h1>
+    <p>AUTO MCLAREN F1</p>
+  </div>
+
+  <nav class="navbar navbar-expand-lg"  style="background-color: #353a37;">
+    <div class="container-fluid" >
+      <a class="navbar-brand"  href="#"></a>
+      <!--<a href="index.html"> <img src="images/logoChido.png" alt="Logo Museo" width="100" height="100"></a>-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">   
+      </div>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="mcLarenF1Historia.html" style="color:white;" >Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="mcLarenF1Especificaciones.html" style="color:white;">Especificaciones</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="my-5">
+    <div class="container">
+      <div class="row">
+        <h1>ESPECIFICACIONES</h1>
+        <div class="col-md-5">
+            <div class="col-md-5">
+                <p class="mt-4">
+                  Costes
+                </p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">•	Su precio cuando nuevo era de US$ 970000</li>
+                  <li class="list-group-item">•	Su precio estimado era de 15 millones de dólares, que ha superado ampliamente llegando finalmente a los 20,46 millones de dólares, lo que al cambio actual se traduce en unos 17,4 millones de euros</li>
+                  <li class="list-group-item">•	Su consumo de combustible promedio es de 15,2 mpgAm (15,5 L/100 km; 6,5 km/L), en el mejor de los escenarios de 23,4 mpgAm (10,1 L/100 km; 9,9 km/L) y en el peor de 9 mpgAm (26,1 L/100 km; 3,8 km/L).5</li>
+                  <li class="list-group-item">•	La revisión de mantenimiento cada 10 000 km (6214 mi) costaba en 2014 unas 30000 ₤</li>
+                </ul>
+                <br><br>
+                <p>
+                  Modelos solamente se construyeron seis unidades, de las cuales se vendieron cinco y otra pintada en naranja (color con el que corría Bruce McLaren), permanece en la fábrica.
+                  Últimas versiones de McLaren
+                </p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">•	McLaren Artura 2021.</li>
+                  <li class="list-group-item">•	McLaren 765LT 2022.</li>
+                  <li class="list-group-item">•	McLaren 765LT Spider 2022.</li>
+                  <li class="list-group-item">•	McLaren GT 2021.</li>
+                </ul>
+              </div> 
+        </div> 
+        <div class= "col-md-7">
+          <img src="../../images/McLaren2.jpeg" alt="MCLaren F1" class="img-fluid">
+          <div class="container">
+            <h5 style="padding-left:25% ;"> Sonido del MCLaren F1</h5>
+            <div class="d-grid gap-2">
+                <button class="btn btn-outline-secondary" onclick="soundMCLaren()">
+                <img class="Musi-Off" src="../../images/sinSonido.png" style="height: 50px ;">
+                <audio id="Audio-MCLaren"></audio>
+                </button>
+            </div>
+          </div> 
+        </div>
+                
+      </div>
+      
+    </div>
+    
+  </main>
+
+  <script src="../../js/bootstrap.js"></script>
+    <script src="jsMcLaren.js"></script>
+</body>
+</html>

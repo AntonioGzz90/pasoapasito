@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/bootstrap.css"/>
+    <link rel="stylesheet" href="../../css/csFondosCarros.css"/>
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css"/>-->
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg"  style="background-color: #353a37;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <a href="../../index.html"> <img src="../../images/logoChido.png" alt="Logo Museo" width="100" height="100"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../../carrosClasicos.html" style="color:white;" >Carros Clasicos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../../carrosDeportivos.html" style="color:white;">Carros deportivos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../../carrosElectricos.html" style="color:white;">Carros electricos</a>
+          </li>
+      </div>
+      <a href="../../formulario.php"> 
+        <button type="button" class="btn btn-outline-danger">Colabora con nosotros</button>
+      </a>
+    </div>
+  </nav> 
+
+  <!--<div class="coverIndex d-flex flex-column mb-3 justify-content-center align-items-center flex column">
+    <h1 > Museo </h1>
+    <p> Los mejores carros, en el mejor museo </p>
+  </div>-->
+
+  <div class="coverChevelle d-flex flex-column justify-content-center align-items-center flex column">
+    <h1 >BIENVENIDO</h1>
+    <p>AUTO CHEVELLE SS</p>
+  </div>
+
+
+  <nav class="navbar navbar-expand-lg"  style="background-color: #353a37;">
+    <div class="container-fluid" >
+      <a class="navbar-brand"  href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">   
+      </div>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="chevelleSSHistoria.html" style="color:white;" >Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="chevelleSSEspecificaciones.html" style="color:white;">Especificaciones</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="my-5">
+    <div class="container">
+      <div class="row">
+        <h1>ESPECIFICACIONES</h1>
+        <div class="col-md-5">
+          <p class="mt-4">El Chevelle 1969 se produjo en una amplia variedad de adornos y modelos, incluyendo el nómada, el 300 Deluxe y el Malibu. El Nomad era una camioneta de cuatro puertas que sentado cinco pasajeros, mientras que el Deluxe estaba disponible como un sedán de cuatro puertas o un coupé de dos puertas. El Malibu fue el modelo top-of-the-line del Chevelle, y había un montón de Malibu sub-modelos. Adornos del Malibu incluyeron un sedán de cuatro puertas, un sedán deportivo, un coupé deportivo y un convertible. También se ofrecieron Concours y SS396 paquetes de modelo.<br> <br> Varios motores estaban disponibles para el 1969 Chevelle. El tren motriz de base - que incluía el eje de transmisión, motor y transmisión - era una Thrift Turbo I6 que produce 140 caballos de fuerza a 4,440 revoluciones por minuto (rpm). El par motor, o el poder de atracción que un vehículo tiene, se estimó en alrededor de 220 pies-lbs. a 1.600 rpm. El motor más potente Chevelle (sólo disponible en el paquete SS396) fue un motor V8 Turbo-jet que ofrece 350 caballos de fuerza a 5,200 rpm y 415 libras-pie. de torque a 3.400 rpm. Muchas transmisiones estaban disponibles, incluyendo una transmisión manual de tres velocidades y una transmisión Hydra-Matic automática de tres velocidades Turbo. Una edición limitada de 1969 Chevelle También se hizo. Era conocido como el "COPO" Chevelle y venía con un motor V8 que produce 425 caballos de fuerza. Este modelo tuvo que ser ordenado especialmente de las fábricas.</p>
+        </div> 
+        <div class= "col-md-7">
+          <img src="../../images/pruebaChevelle.jpg" alt="Chevrolet Nova II SS Coupe de 1966" class="img-fluid">
+          <div class="container">
+            <h5 style="padding-left:35% ;"> Sonido del ChevelleSS 19969</h5>
+            <div class="d-grid gap-2">
+                <button class="btn btn-outline-secondary" onclick="soundChevelle()">
+                <img class="Musi-Off" src="../../images/sinSonido.png" style="height: 50px ;">
+                <audio id="Audio-Chevelle"></audio>
+                </button>
+            </div>
+          </div> 
+        </div>
+                
+      </div>
+      
+    </div>
+    
+  </main>
+
+  <script src="../../js/bootstrap.js"></script>
+    <script src="jsChevelle.js"></script>
+</body>
+</html>
