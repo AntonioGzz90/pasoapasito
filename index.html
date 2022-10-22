@@ -10,6 +10,21 @@
     <title>Document</title>
 </head>
 <body>
+
+  <style>
+    @media screen and (max-width:768px){
+    .bg-transparent{
+    background:#000 !important;
+    }
+    }
+    .carousel-caption{
+    padding-bottom:0;
+    padding-top:0;
+    bottom:0;
+    top:50%;
+    transform:translateY(-50%);
+    }
+ </style>
   
   <!-- ║ NABVAR ║ -->
 
@@ -32,7 +47,7 @@
             <a class="nav-link active" aria-current="page" href="carrosElectricos.html" style="color:white;">Carros electricos</a>
           </li>
       </div>
-      <a href="formulario.php"> 
+      <a href="login.php"> 
         <button type="button" class="btn btn-outline-danger">Colabora con nosotros</button>
       </a>
     </div>
@@ -40,6 +55,45 @@
 
   <!-- ║ CARRUSEL ║ -->
 
+  <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#hero-carousel"" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="images/carouselCarroClasico.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption ">
+          <p class="mt-5 fs-3 text-uppercase" >Los mejores carros clasicos del mundo en este museo</h5>
+          <h1 class="display-1 fw-bolder text-captalize">Carros Clasicos</p>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="images/carouselCarroDeportivo.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption ">
+          <p class="mt-5 fs-3 text-uppercase" >Los mejores carros deportivos del mundo en este museo</h5>
+          <h1 class="display-1 fw-bolder text-captalize">Carros Deportivos</p>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="images/carouselCarroElectrico.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption ">
+          <p class="mt-5 fs-3 text-uppercase" >Los mejores carros electricos del mundo en este museo</h5>
+          <h1 class="display-1 fw-bolder text-captalize">Carros Clasicos</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -51,21 +105,21 @@
         <img src="images/carouselCarroClasico.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Carros Clasicos</h5>
-          <p>Los mejores carros clasicos del mundo en este museo</p>
+          <p></p>
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="3000" >
         <img src="images/carouselCarroDeportivo.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Carros Deportivos</h5>
-          <p>Los mejores carros deportivos del mundo en este museo</p>
+          <h5></h5>
+          <p></p>
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="3000">
         <img src="images/carouselCarroElectrico.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Carros Electricos</h5>
-          <p>Los mejores carros electricos del mundo en este museo.</p>
+          <p></p>
         </div>
       </div>
     </div>
@@ -77,19 +131,19 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
+  </div>-->
 
   <!-- ║ TARJETA ║ -->
 
   <div id= "ribbon" class="container-fluid">
-    <div id ="birthday" class="container w-50 px-5 rounded-lg">
+    <div id ="birthday" class="container w-50 pl-5 rounded-lg ">
       <div class="row align-items-center">
         <div class="col-sm p-3">
-          <img src="images/logoChido.png"  class="w-50 mx-auto d-block" alt="">
+          <img src="images/logoChido.png"  class="w-75 mx-auto d-block" alt="">
         </div>
         <div class="col-sm p-3 text-light text-center">
-          <p class="text-danger h3"> ║ Paso a pasito ║</p>
-          <h4 class="h2 text-shadow"> Los mejores carros do mundo</h4>
+          <p class="text-danger h3">Paso a pasito</p>
+          <h4 class="h2 text-shadow"> Mejor Museo Do Mundo</h4>
         </div>
       </div>
     </div>
