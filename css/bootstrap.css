@@ -10937,12 +10937,12 @@ textarea.form-control-lg {
   background-color: #000;
   
 }*/
-
+/*
 .carousel-caption{
   background-color: #000;
   opacity: 70%;
   color: white;
-}
+}*/
 
 .slide img{
   height: 75vh;
@@ -11065,5 +11065,15 @@ textarea.form-control-lg {
   border-radius: 20%;
   width: 400px;
   
+}
+
+.c-item{
+  height: 75vh;
+}
+
+.c-img{
+  height: 100%;
+  object-fit: cover;
+  filter:brightness(0.6);
 }
 /*# sourceMappingURL=bootstrap.css.map */
