@@ -11,10 +11,10 @@
   
   <!-- BARRA DE NAVEGACION-->
 
-  <nav class="navbar navbar-expand-lg"  style="background-color: #353a37;">
-    <div class="container-fluid">
+  <nav style=" background-blend-mode:darken; background-color: rgba(0,0,0,0.5);" class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <div  class="container-fluid">
       <a class="navbar-brand" href="#"></a>
-      <a href="index.html"> <img src="images/logoChido.png" alt="Logo Museo" width="100" height="100"></a>
+      <a href="index.html"><img src="images/logoChido.png" alt="Logo Museo" width="100" height="100"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,7 +31,7 @@
           </li>
       </div>
       <a href="formulario.php"> 
-        <button type="button" class="btn btn-outline-danger">Colabora con nosotros</button>
+        <button type="button" class="btn btn-danger">Danos tu opinion</button>
       </a>
     </div>
   </nav>
@@ -39,12 +39,12 @@
   <!-- PRIMERA PLANA / INFORMACION DE LA PAGINA-->
 
     <main class="my-5">
-      <div class="container">
-        <div class="row">
-          <div class= "col-md-7">
+      <div style="padding-top: 25px;" class="container ">
+        <div class="row my-5">
+          <div class= "col-md-7 ">
             <img src="images/carrosDeportivos.jpg" alt="Carro de Lujo" class="img-fluid">
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5 my-5">
             <h1>CARROS DEPORTIVOS</h1>
             <P class="mt-4">¿Qué amante de la velocidad no sueña con manejar el mejor de los carros deportivos? Es una experiencia increíble que pocos afortunados pueden vivir, ¿eres uno de ellos? Si aprecias estos poderosos bólidos, este artículo es para ti.
 
@@ -121,7 +121,18 @@
 
     
 
-
+    <script>
+      var nav = document.querySelector('nav');
+    
+      window.addEventListener('scroll', function (){
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-navbar', 'shadow');
+        }
+        else{
+          nav.classList.remove('bg-navbar', 'shadow');
+        }
+      });
+    </script>
 
 
 
