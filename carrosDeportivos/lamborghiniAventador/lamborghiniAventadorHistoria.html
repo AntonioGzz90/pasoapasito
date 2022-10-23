@@ -10,10 +10,10 @@
     <title>Document</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg"  style="background-color: #353a37;">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"></a>
-      <a href="../../index.html"> <img src="../../images/logoChido.png" alt="Logo Museo" width="100" height="100"></a>
+      <a href="../../index.html"><img src="../../images/logoChido.png" alt="Logo Museo" width="100" height="100"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,11 +29,11 @@
             <a class="nav-link active" aria-current="page" href="../../carrosElectricos.html" style="color:white;">Carros electricos</a>
           </li>
       </div>
-      <a href="../../formulario.php"> 
-        <button type="button" class="btn btn-outline-danger">Colabora con nosotros</button>
+      <a href="formulario.php"> 
+        <button type="button" class="btn btn-danger">Danos tu opinion</button>
       </a>
     </div>
-  </nav> 
+  </nav>
 
   <!--<div class="coverIndex d-flex flex-column mb-3 justify-content-center align-items-center flex column">
     <h1 > Museo </h1>
@@ -67,6 +67,18 @@
       </div>
     </div>
   </main>
+  <script>
+    var nav = document.querySelector('nav');
+  
+    window.addEventListener('scroll', function (){
+      if (window.pageYOffset > 100) {
+        nav.classList.add('bg-navbar', 'shadow');
+      }
+      else{
+        nav.classList.remove('bg-navbar', 'shadow');
+      }
+    });
+  </script>
 
   <script src="../../js/bootstrap.js"></script>
     <script src="jsLamborghini.js"></script>
