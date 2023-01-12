@@ -10920,9 +10920,12 @@ textarea.form-control-lg {
 }
 
 .nav-item{
+  padding-top: 0.3cm;
   padding-left: 1cm;
   
 }
+
+
 
 
 /*.carousel-item{
@@ -11075,5 +11078,42 @@ textarea.form-control-lg {
   height: 100%;
   object-fit: cover;
   filter:brightness(0.6);
+}
+
+
+
+.navbar-brand{
+  margin-right: 0;
+}
+
+.navbar.nav{
+  align-items: center;
+}
+
+.navbar .navbar.nav .navbar-link{
+  color: #fff;
+  font-size: 1.1en;
+  padding: 0 1em;    
+}
+
+.navbar-brand img{
+  width: 100px ;
+}
+
+.imagen{
+  width: 850px;
+  height:450px;
+}
+
+.contenedor{
+  display: flex;
+
+}
+.boton{
+  display: grid;
+}
+
+.txt{
+  padding-right: 2cm;
 }
 /*# sourceMappingURL=bootstrap.css.map */
