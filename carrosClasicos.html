@@ -5,61 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <title>Carros Clasicos</title>
 </head>
 <body>
   <!-- BARRA DE NAVEGACION-->
-  <nav style=" background-blend-mode:darken; background-color: rgba(0,0,0,0.5);" class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+  <nav style=" background-blend-mode:darken; background-color: rgba(94, 89, 89, 0.5);" class="navbar fixed-top navbar-expand-lg navbar-dark p-md-2">
     <div  class="container-fluid">
-      <a class="navbar-brand" href="#"></a>
-      <a href="index.html"><img src="images/logoChido.png" alt="Logo Museo" width="100" height="100"></a>
+      <a class="navbar-brand d-lg-none" href="index.html"><img src="images/logo.png" alt="Logo Museo" ></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="carrosClasicos.html" style="color:white;" >Prueba</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="carrosClasicos.html" style="color:white;" >Carros Clasicos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="carrosDeportivos.html" style="color:white;">Carros deportivos</a>
           </li>
+          <li class="nav-item"><a class="navbar-brand d-none d-lg-block" href="index.html"><img src="images/logo.png" alt="Logo Museo"></a></li>
+
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="carrosElectricos.html" style="color:white;">Carros electricos</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="carrosElectricos.html" style="color:white;">Prueba</a>
+          </li>
+
+          <li class="nav-item">
+            <a  href="formulario.php"> 
+              <button type="button" class="btn btn-danger">Danos tu opinion</button>
+            </a>            
+          </li>
+
       </div>
-      <a href="formulario.php"> 
+
+      <!--<a href="formulario.php"> 
         <button type="button" class="btn btn-danger">Danos tu opinion</button>
-      </a>
+      </a>-->
     </div>
   </nav>
     <!-- PRIMERA PLANA / INFORMACION DE LA PAGINA-->
     <main class="my-5">
-      <div style="padding-top: 25px;" class="container ">
-        <div class="row my-5">
-          <div class= "col-md-7 ">
-            <img src="images/chevroletNova.jpg" alt="Chevrolet Nova II SS Coupe de 1966" class="img-fluid">
-          </div>
-          <div class="col-md-5 ">
-            <h1>CARROS CLASICOS</h1>
-            <P class="mt-4">El creciente interés por los resto-mod en una generación más joven que la que adquiere un clásico puro se atribuye en buena parte a la influencia de los programas de televisión dedicados a la renovación de coches clásicos, sobre todo los muscle cars estadounidenses. Fast n’ Loud (Gas Monkey), Counting Cars (Locos por los coches) o Wheeler Dealers (Joyas sobre ruedas) son tal vez los más populares entre esos programas que desde hace varios años contribuyen a la popularidad de los resto-mod.
-
-              Los dos primeros debutaron en 2012 en Dallas (Texas) y Las Vegas (Nevada), respectivamente, mientras que el último comenzó en 2003 en Reino Unido y poco más de una década después se expandió a Huntington Beach (California). En sus inicios, el programa británico se dedicaba a restaurar coches clásicos europeos manteniendo al máximo su originalidad, pero ya en tierras californianas se decantó por las modificaciones en más de un coche deportivo estadounidense o japonés. </P>
-          </div>  
+      
+      <div style="padding-top: 25px;" class="container">
+        
+        <!-- IMAGEN QUE DESAPARECE-->
+        
+        <div class="my-5 ">
+          <h1 class="d-lg-none text-center ">CARROS CLASICOS</h1>
+          <img style="width:100%; height:100%;" src="images/chevroletNova.jpg" alt="Chevrolet Nova II SS Coupe de 1966" class="d-lg-none d-sm-block rounded mx-auto d-block">  
+        </div>
+        
+        <div class="my-5 ">
+          
+          <img style="width:50%; height:50%; padding-right: 0.5cm; float: left;" src="images/chevroletNova.jpg" alt="Chevrolet Nova II SS Coupe de 1966" class="d-none d-lg-block">
+          <h1 class="d-none d-sm-block d-md-none d-lg-block d-sm-none">CARROS CLASICOS</h1>
+          <P class="mt-2 text-justify">El creciente interés por los resto-mod en una generación más joven que la que adquiere un clásico puro se atribuye en buena parte a la influencia de los programas de televisión dedicados a la renovación de coches clásicos, sobre todo los muscle cars estadounidenses. Fast n’ Loud (Gas Monkey), Counting Cars (Locos por los coches) o Wheeler Dealers (Joyas sobre ruedas) son tal vez los más populares entre esos programas que desde hace varios años contribuyen a la popularidad de los resto-mod. Los dos primeros debutaron en 2012 en Dallas (Texas) y Las Vegas (Nevada), respectivamente, mientras que el último comenzó en 2003 en Reino Unido y poco más de una década después se expandió a Huntington Beach (California). En sus inicios, el programa británico se dedicaba a restaurar coches clásicos europeos manteniendo al máximo su originalidad, pero ya en tierras californianas se decantó por las modificaciones en más de un coche deportivo estadounidense o japonés. El creciente interés por los resto-mod en una generación más joven que la que adquiere un clásico puro se atribuye en buena parte a la influencia de los programas de televisión dedicados a la renovación de coches clásicos, sobre todo los muscle cars estadounidenses. Fast n’ Loud (Gas Monkey), Counting Cars (Locos por los coches) o Wheeler Dealers (Joyas sobre ruedas) son tal vez los más populares entre esos programas que desde hace varios años contribuyen a la popularidad de los resto-mod. Los dos primeros debutaron en 2012 en Dallas (Texas) y Las Vegas (Nevada), respectivamente, mientras que el último comenzó en 2003 en Reino Unido y poco más de una década después se expandió a Huntington Beach (California). En sus inicios, el programa británico se dedicaba a restaurar coches clásicos europeos manteniendo al máximo su originalidad, pero ya en tierras californianas se decantó por las modificaciones en más de un coche deportivo estadounidense o japonés. </P>
         </div>
 
-        
         <div class="row">
           <div class="col">
-            <div class="bg-secondary text-white my-3 py-3 card text-center">
+            <div class="bg-dark text-white my-3 py-3 card text-center">
               <div class="card-body">
                 LISTA DE LOS MEJORES CARROS CLASICOS
               </div>
             </div>
             <!-- LISTA DE LOS CARROS-->
-            <div class="card-group">
-              <div class="card">
-                <img src="images/plymounthBarracuda.jpg " class="card-img-top" alt="Plymouth Barracuda – 1969" width="400" height="300">
+
+          <!--GRANDE-->
+            <div class="card-group ">
+              <div class="card 	 bg-secondary p-2 text-white text-center">
+                <img src="images/plymounthBarracuda.jpg " class="card-img-top d-none d-sm-none d-md-none d-xxl-block d-xl-block d-lg-block" alt="Plymouth Barracuda – 1969" width="400" height="300">
+                <img src="images/plymounthBarracuda.jpg " class="d-none d-md-block d-sm-none d-xxl-none d-xl-none d-lg-none" alt="Plymouth Barracuda – 1969" width="200" height="200">
+                <img src="images/plymounthBarracuda.jpg" class="card-img-top  d-sm-block d-md-none d-xxl-none d-xl-none d-lg-none" alt="Corvette Stingray C3 – 1968" width="400" height="300">
                 <div class="card-body">
                   <h5 class="card-title">Plymouth Barracuda – 1969</h5>
                   <p class="card-text">Chulada de Carro</p>
@@ -67,48 +90,74 @@
                 <div class="d-grid gap-2 col-6 mx-auto">
                   <form>
                     <a href="carrosClasicos/plymounthBarracuda/plymounthBarracudaHistoria.html"> 
-                      <button type="button" class="btn btn-outline-info">Más información</button>
+                      <button type="button" class="btn btn-outline-dark">Más información</button>
                     </a>
                   </form>
                 </div>
               </div>
               
-              <div class="card">
-                <img src="images/Chevelle SS.jpg" class="card-img-top" alt="Chevelle SS – 1969" width="400" height="300">
-                <div class="card-body">
+
+
+                <!--GRANDE-->
+              <div class="card  bg-secondary p-2 text-white text-center">
+                <img src="images/Chevelle SS.jpg" class="card-img-top d-none d-sm-none d-md-none d-xxl-block d-xl-block d-lg-block" alt="Chevelle SS – 1969" width="400" height="300">
+                <img src="images/Chevelle SS.jpg" class="d-none d-md-block d-sm-none d-xxl-none d-xl-none d-lg-none " alt="Chevelle SS – 1969" width="200" height="200">
+                <img src="images/Chevelle SS.jpg" class="card-img-top  d-sm-block d-md-none d-xxl-none d-xl-none d-lg-none" alt="Corvette Stingray C3 – 1968" width="400" height="300">
+                
+                <div class="card-body ">
                   <h5 class="card-title">Chevelle SS – 1969</h5>
                   <p class="card-text">Modelo utilizado en Fast and Furious</p>
                 </div>
                 <div class="d-grid gap-2 col-6 mx-auto">
                   <form>
                     <a href="carrosClasicos/chevelleSS/chevelleSSHistoria.html"> 
-                      <button type="button" class="btn btn-outline-info">Más información</button>
+                      <button type="button" class="btn btn-outline-dark">Más información</button>
                     </a>
                   </form>
                 </div>
               </div>
 
-              <div class="card">
-                <img src="images/CorvetteStingray.jpg" class="card-img-top" alt="Corvette Stingray C3 – 1968" width="400" height="300">
+
+
+              <!--GRANDE-->
+              <div class="card  bg-secondary p-2 text-white text-center">
+                <img src="images/CorvetteStingray.jpg" class="card-img-top d-none d-sm-none d-md-none d-xxl-block d-xl-block d-lg-block" alt="Corvette Stingray C3 – 1968" width="400" height="300">
+                <img src="images/CorvetteStingray.jpg" class="d-none d-md-block d-sm-none d-xxl-none d-xl-none d-lg-none" alt="Corvette Stingray C3 – 1968" width="200" height="200">
+                <img src="images/CorvetteStingray.jpg" class="card-img-top  d-sm-block d-md-none d-xxl-none d-xl-none d-lg-none" alt="Corvette Stingray C3 – 1968" width="400" height="300">
                 <div class="card-body">
                   <h5 class="card-title">Corvette Stingray C3 – 1968</h5>
-                  <p class="card-text">Auto clasico</p>
+                  <p class="card-text">Hot Wheels sacó una línea de juguetes de este modelo</p>
                 </div>
                 <div class="d-grid gap-2 col-6 mx-auto">
                   <form>
                     <a href="carrosClasicos/corvetteStringray/corvetteStringrayHistoria.html"> 
-                      <button type="button" class="btn btn-outline-info">Más información</button>
+                      <button type="button" class="btn btn-outline-dark">Más información</button>
                     </a>
                   </form>
                 </div>
               </div>
+
             </div>
           </div>
 
         </div>
       </div>
-    </main>
+        
 
+        
+        
+    </main>
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead"> Copyright &copy; 2022 Paso a Pasito</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i id="iconArriba" class="bi bi-arrow-up h1"></i>
+          
+        </a>
+      </div>
+  
+      
+    </footer>
     
 
     <script>

@@ -28,55 +28,45 @@
   
   <!-- ║ NABVAR ║ -->
 
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"></a>
-      <img src="images/logoChido.png" alt="Logo Museo" width="100" height="100">
+  <nav style=" background-blend-mode:darken; background-color: rgba(94, 89, 89, 0.5);" class="navbar fixed-top navbar-expand-lg navbar-dark p-md-2">
+    <div  class="container-fluid">
+      <a class="navbar-brand d-lg-none" href="index.html"><img src="images/logo.png" alt="Logo Museo" ></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="carrosClasicos.html" style="color:white;" >Prueba</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="carrosClasicos.html" style="color:white;" >Carros Clasicos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="carrosDeportivos.html" style="color:white;">Carros deportivos</a>
           </li>
+          <li class="nav-item"><a class="navbar-brand d-none d-lg-block" href="index.html"><img src="images/logo.png" alt="Logo Museo"></a></li>
+
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="carrosElectricos.html" style="color:white;">Carros electricos</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="carrosElectricos.html" style="color:white;">Prueba</a>
+          </li>
+
+          <li class="nav-item">
+            <a  href="formulario.php"> 
+              <button type="button" class="btn btn-danger">Danos tu opinion</button>
+            </a>            
+          </li>
+
       </div>
-      <a href="formulario.php"> 
+
+      <!--<a href="formulario.php"> 
         <button type="button" class="btn btn-danger">Danos tu opinion</button>
-      </a>
+      </a>-->
     </div>
   </nav>
-<!--
-  <nav class="navbar navbar-expand-lg"  style="background-color: #353a37;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"></a>
-      <a href="index.html"> <img src="images/logoChido.png" alt="Logo Museo" width="100" height="100"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="carrosClasicos.html" style="color:white;" >Carros Clasicos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="carrosDeportivos.html" style="color:white;">Carros deportivos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="carrosElectricos.html" style="color:white;">Carros electricos</a>
-          </li>
-      </div>
-      <a href="login.php"> 
-        <button type="button" class="btn btn-outline-danger">Colabora con nosotros</button>
-      </a>
-    </div>
-  </nav> -->
 
   <!-- ║ CARRUSEL ║ -->
 
@@ -90,22 +80,22 @@
       <div class="carousel-item active c-item">
         <img src="images/carouselCarroClasico.jpg" class="d-block w-100 c-img" alt="...">
         <div class="carousel-caption ">
-          <p class="mt-5 fs-3 text-uppercase" >Los mejores carros clasicos del mundo en este museo</h5>
-          <h1 class="display-1 fw-bolder text-captalize">Carros Clasicos</p>
+          <p class="mt-5 fs-3 text-uppercase" >Los mejores carros clasicos del mundo en este museo</p>
+          <h1 class="display-1 fw-bolder text-captalize">Carros Clasicos</h1>
         </div>
       </div>
       <div class="carousel-item c-item">
         <img src="images/carouselCarroDeportivo.jpg" class="d-block w-100 c-img" alt="...">
         <div class="carousel-caption ">
-          <p class="mt-5 fs-3 text-uppercase" >Los mejores carros deportivos del mundo en este museo</h5>
-          <h1 class="display-1 fw-bolder text-captalize">Carros Deportivos</p>
+          <p class="mt-5 fs-3 text-uppercase" >Los mejores carros deportivos del mundo en este museo</p>
+          <h1 class="display-1 fw-bolder text-captalize">Carros Deportivos</h1>
         </div>
       </div>
       <div class="carousel-item c-item">
         <img src="images/carouselCarroElectrico.jpg" class="d-block w-100 c-img" alt="...">
         <div class="carousel-caption ">
-          <p class="mt-5 fs-3 text-uppercase" >Los mejores carros electricos del mundo en este museo</h5>
-          <h1 class="display-1 fw-bolder text-captalize">Carros Clasicos</p>
+          <p class="mt-5 fs-3 text-uppercase" >Los mejores carros electricos del mundo en este museo</p>
+          <h1 class="display-1 fw-bolder text-captalize">Carros Clasicos</h1>
         </div>
       </div>
     </div>
@@ -118,45 +108,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <!--
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="3000">
-        <img src="images/carouselCarroClasico.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Carros Clasicos</h5>
-          <p></p>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="3000" >
-        <img src="images/carouselCarroDeportivo.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5></h5>
-          <p></p>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="3000">
-        <img src="images/carouselCarroElectrico.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Carros Electricos</h5>
-          <p></p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>-->
+
 
   <!-- ║ TARJETA ║ -->
 
@@ -164,7 +116,7 @@
     <div id ="birthday" class="container w-50 pl-5 rounded-lg ">
       <div class="row align-items-center">
         <div class="col-sm p-3">
-          <img src="images/logoChido.png"  class="w-75 mx-auto d-block" alt="">
+          <img  src="images/logo.png"  class="w-75 mx-auto d-block" alt="">
         </div>
         <div class="col-sm p-3 text-light text-center">
           <p class="text-danger h3">Paso a pasito</p>
@@ -178,27 +130,6 @@
   <div id="separator-ribbon">
     <div class="content bg-dark"></div>
   </div>
-  
-  <!-- ║ PORQUE CREAMOS LA PAGINA ║ -->
- <!--id="ribbonWhy"-->
-  <!--<div  class="row py-5" id="row-why" > 
-    <div id class="container">
-      <div class="row text-light">
-        <div class="col-md-5 text-center">
-          <img src="images/carroAlas.jpg"  alt="">
-        </div>
-
-        <div class="col-md-7 mt-4">
-          <h1 style="color:black ;">Proposito de esta pagina </h1>
-          <p style="color:black ;" class="font-weight-bold mt-4"> asdasdasdasdasdasdasdasdasdas asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdas</p>
-          <p style="color:black ;" class="font-weight-bold mt-4"> asdasdasdasdasdasdasdasdasdas asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdas</p>
-          <p style="color:black ;" class="font-weight-bold mt-4"> asdasdasdasdasdasdasdasdasdas asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdas</p>
-          <p style="color:black ;" class="font-weight-bold mt-4"> asdasdasdasdasdasdasdasdasdas asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdas</p>
-        </div>
-
-      </div>
-    </div>
-  </div>-->
 
 
   <main class="my-5">
@@ -209,7 +140,7 @@
         </div>
         <div class="col-md-5">
           <h1 style="color:black ;" class="my-5">Proposito de esta pagina </h1>
-          <p style="color:black ; " class="mt-4"> asdasdasdasdasdasdasdasdasdas asdasdasdasdasdasdasdasdasdas asdasdasdasdasdasdasdasdasdas asdasdasdasdasdasdasdasdasdas </p>
+          <p style="color:black ; " class="mt-4"> El proposito de esta página es mostrar algunos de los carros más famosos que se ha tenido hasta el momento, en sus 3 secciones, Clásicos, Electricos y Deportivos. Cada categoria tendra su toque especial, ya que en el caso de carros clásicos, se habla un poco de la historia que a tenido por el paso de los años, en deportivos el como son tan potentes, y en electricos, el como será el futuro, dejando un poco atras a los carros que consumen gasolina como combustible</p>
           
         </div>  
       </div>
@@ -234,7 +165,7 @@
     <div class="card-group">
       
       <div class="card" style="background-color: faf0e6; color:black;">
-        <img src="images/cj.png " class="card-img-top" alt="Tesla Model X" width="400" height="300">
+        <img src="images/caballo.jpeg" class="card-img-top" alt="Tesla Model X" width="400" height="300">
         <div class="card-body">
           <h5 class="card-title" style="text-align: center;">Victoria Alejandra</h5>
           <p class="card-text">Prueba de esto no se que poner porque es una prueba de hasta donde se puede estirar esto creo que esto no aparecera en la pagina Prueba de esto no se que poner porque es una prueba de hasta donde se puede estirar esto creo que esto no aparecera en la pagina</p>
@@ -243,7 +174,7 @@
 
     
       <div class="card" style="background-color:  faf0e6; color:black;">
-        <img src="images/cj.png " class="card-img-top" alt="Tesla Model X" width="400" height="300">
+        <img src="images/bee.jpeg" class="card-img-top" alt="Tesla Model X" width="400" height="300">
         <div class="card-body">
           <h5 class="card-title" style="text-align: center;">Daira Yllen</h5>
           <p class="card-text">Prueba de esto no se que poner porque es una prueba de hasta donde se puede estirar esto creo que esto no aparecera en la pagina Prueba de esto no se que poner porque es una prueba de hasta donde se puede estirar esto creo que esto no aparecera en la pagina</p>
@@ -251,7 +182,7 @@
       </div>
 
       <div class="card" style="background-color:  faf0e6; color:black;">
-        <img src="images/cj.png " class="card-img-top" alt="Tesla Model X" width="400" height="300">
+        <img src="images/flow.jpeg" class="card-img-top" alt="Tesla Model X" width="400" height="300">
         <div class="card-body">
           <h5 class="card-title" style="text-align: center;">Mayela Gzz</h5>
           <p class="card-text">Prueba de esto no se que poner porque es una prueba de hasta donde se puede estirar esto creo que esto no aparecera en la pagina Prueba de esto no se que poner porque es una prueba de hasta donde se puede estirar esto creo que esto no aparecera en la pagina</p>
@@ -276,51 +207,7 @@
   </div>
   
   <!-- ║ INTEGRANTES DEL EQUIPO ║ -->
-  <!--
-  <div id="row-pagina" class="row text-white py-5">
-    <div class="container text-center">
-      <div class="row justify-content-center">
-        <div class="col-md-8">
-          <h1 class="font-weight-bold">Integrantes del equipo</h1>
-          <h4>Descripcion corta de cada integrante</h4>
-        </div>
-      </div>
-
-      <div class="row mt-4">
-        <div class="col">
-          <img src="images/boltEV.jpg" style="width:45% ; height:60%;" alt="">
-          <h4 class="font-weight-bold mt-4">Victoria Alejandra</h4>
-          <p>Prueba de esto no se que poner porque es una prueba de hasta donde se puede estirar esto creo que esto no aparecera en la pagina</p>
-        </div>
-
-        <div class="col">
-          <img src="images/boltEV.jpg" style="width:45% ; height:60%;" alt="">
-          <h4 class="font-weight-bold mt-4">Oscar Ulises</h4>
-          <p>Prueba de esto no se que poner porque es una prueba de hasta donde se puede estirar esto creo que esto no aparecera en la pagina</p>
-        </div>
-
-        <div class="col">
-          <img src="images/boltEV.jpg" style="width:45% ; height:60%;" alt="">
-          <h4 class="font-weight-bold mt-4">Mayela Gzz</h4>
-          <p>Prueba de esto no se que poner porque es una prueba de hasta donde se puede estirar esto creo que esto no aparecera en la pagina</p>
-        </div>
-
-        <div class="col">
-          <img src="images/boltEV.jpg" style="width:45% ; height:60%;" alt="">
-          <h4 class="font-weight-bold mt-4">Daira Yllen</h4>
-          <p>Prueba de esto no se que poner porque es una prueba de hasta donde se puede estirar esto creo que esto no aparecera en la pagina</p>
-        </div>
-
-        <div class="col">
-          <img src="images/cj.png" style="width:45% ; height:60%;" alt="">
-          <h4 class="font-weight-bold mt-4">Diego Antonio</h4>
-          <p>Prueba de esto no se que poner porque es una prueba de hasta donde se puede estirar esto creo que esto no aparecera en la pagina </p>
-        </div>
-      
-      </div>
-    </div>
-  </div>
-  -->
+ 
 
     
 
