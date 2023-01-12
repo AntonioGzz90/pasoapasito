@@ -10,28 +10,40 @@
     <title>Document</title>
 </head>
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"></a>
-      <a href="../../index.html"><img src="../../images/logoChido.png" alt="Logo Museo" width="100" height="100"></a>
+  <nav style=" background-blend-mode:darken; background-color: rgba(94, 89, 89, 0.5);" class="navbar fixed-top navbar-expand-lg navbar-dark p-md-2">
+    <div  class="container-fluid">
+      <a class="navbar-brand d-lg-none" href="../../index.html"><img src="../../images/logoChido.png" alt="Logo Museo" ></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../../carrosClasicos.html" style="color:white;" >Prueba</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="../../carrosClasicos.html" style="color:white;" >Carros Clasicos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="../../carrosDeportivos.html" style="color:white;">Carros deportivos</a>
           </li>
+          <li class="nav-item"><a class="navbar-brand d-none d-lg-block" href="../../index.html"><img src="../../images/logo.png" alt="Logo Museo"></a></li>
+
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="../../carrosElectricos.html" style="color:white;">Carros electricos</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../../carrosElectricos.html" style="color:white;">Prueba</a>
+          </li>
+
+          <li class="nav-item">
+            <a  href="formulario.php"> 
+              <button type="button" class="btn btn-danger">Danos tu opinion</button>
+            </a>            
+          </li>
+
       </div>
-      <a href="formulario.php"> 
-        <button type="button" class="btn btn-danger">Danos tu opinion</button>
-      </a>
+
     </div>
   </nav>
 
@@ -53,10 +65,83 @@
   </div>
 
 
-  <main class="my-5">
+  <div style="padding-left: 5cm; padding-right: 5cm;" class=" contenedor my-5 d-none d-xxl-block d-xl-block d-lg-block">
+    
+    <div>
+      <div style="float:right; padding-top: 2cm;" class="col-md-5">
+        <img  src="../../images/Barracuda2.jpg" alt="Plymouth Barracuda 1969" class=" img-fluid"> 
+        
+        <div class="d-grid gap-2">
+          <h5 class="text-center" > Sonido del Plymouth Barracuda 1969</h5>
+          <button class="btn btn-outline-secondary" onclick="soundBarracuda()">
+          <img class="Musi-Off" src="../../images/sinSonido.png" style="height: 50px ;">
+          <audio id="Audio-Barracuda"></audio>
+          </button>
+      </div>
+          
+      </div>
+      
+      <h1 class="text-center">ESPECIFICACIONES</h1>
+      <p class="text-break">En 1968, el motor 273 fue reemplazado por un motor Chrysler LA de 318 (318 plgs³) (5.2 L) como la versión más pequeña de V8 disponible, y apareció el motor LA 340 (5.6 L) LA de cuatro cuerpos. El motor 383 Super Commando engine fue actualizado con el árbol de levas y culata de la Road Runner y Super Bee, pero los colectores de escape más específicos y restrictivos para este tipo de vehículos limitó su salida a 300 bhp (220 kW).6
+        También en 1968, Chrysler hizo aproximadamente 50 fastback Barracudas equipados con motores Chrysler Hemi 426 (7.0 L) para carreras de drag Super Stock. Estos autos eran ensamblados por «Hurst Performance» y contaban con elementos ligeros como el vidrio Chemcor, guardabarros delanteros de fibra de vidrio, asientos ligeros, equipo de sonido y otros detalles como los asientos traseros fueron omitidos. Incluía una etiqueta que decía que el vehículo no era apto para su uso en la vía pública, sino que podría correr el cuarto de milla en alrededor de 10 segundos en 1968.2
+        En 1969, Plymouth puso mayor énfasis en la prestación y comercialización del rendimiento. Una nueva opción fue el Mod Top, un techo de vinilo cubierto con un motivo floral, disponible en 1969 y 1970. Plymouth lo vendió como un paquete con inserciones en el panel del asiento y la puerta hecho en el mismo patrón.7
+        El Barracuda fue vendido por un precio base de $2.512 dólares. <br> <br>
+        
+        La versión 1969 del motor 383 fue actualizada para incrementar la potencia de salida a 330php (250kW), y fue lanzado con el nombre de 'Cuda. El 'Cuda, basado en la opción Fórmula S, estaba disponible en versiones de motor 340, 383 y la nueva versión Super Commando V8 440 ci de 1969. En 1968, el motor 273 fue reemplazado por un motor Chrysler LA de 318 (318 plgs³) (5.2 L) como la versión más pequeña de V8 disponible, y apareció el motor LA 340 (5.6 L) LA de cuatro cuerpos. El motor 383 Super Commando engine fue actualizado con el árbol de levas y culata de la Road Runner y Super Bee, pero los colectores de escape más específicos y restrictivos para este tipo de vehículos limitó su salida a 300 bhp (220 kW).6
+        También en 1968, Chrysler hizo aproximadamente 50 fastback Barracudas equipados con motores Chrysler Hemi 426 (7.0 L) para carreras de drag Super Stock. Estos autos eran ensamblados por «Hurst Performance» y contaban con elementos ligeros como el vidrio Chemcor, guardabarros delanteros de fibra de vidrio, asientos ligeros, equipo de sonido y otros detalles como los asientos traseros fueron omitidos. Incluía una etiqueta que decía que el vehículo no era apto para su uso en la vía pública, sino que podría correr el cuarto de milla en alrededor de 10 segundos en 1968.2
+        En 1969, Plymouth puso mayor énfasis en la prestación y comercialización del rendimiento. Una nueva opción fue el Mod Top, un techo de vinilo cubierto con un motivo floral, disponible en 1969 y 1970. Plymouth lo vendió como un paquete con inserciones en el panel del asiento y la puerta hecho en el mismo patrón.7
+        El Barracuda fue vendido por un precio base de $2.512 dólares.
+        
+       
+      </p>
+        
+    </div>
+
+
+
+
+  </div>
+
+
+  <main class="my-5 d-none d-md-block d-lg-none">
+    <div class="container">
+
+        <h1 class="text-center" style="padding-left: 1.5cm;">ESPECIFICACIONES</h1>
+ 
+            <p class="mt-4">En 1968, el motor 273 fue reemplazado por un motor Chrysler LA de 318 (318 plgs³) (5.2 L) como la versión más pequeña de V8 disponible, y apareció el motor LA 340 (5.6 L) LA de cuatro cuerpos. El motor 383 Super Commando engine fue actualizado con el árbol de levas y culata de la Road Runner y Super Bee, pero los colectores de escape más específicos y restrictivos para este tipo de vehículos limitó su salida a 300 bhp (220 kW).6
+                También en 1968, Chrysler hizo aproximadamente 50 fastback Barracudas equipados con motores Chrysler Hemi 426 (7.0 L) para carreras de drag Super Stock. Estos autos eran ensamblados por «Hurst Performance» y contaban con elementos ligeros como el vidrio Chemcor, guardabarros delanteros de fibra de vidrio, asientos ligeros, equipo de sonido y otros detalles como los asientos traseros fueron omitidos. Incluía una etiqueta que decía que el vehículo no era apto para su uso en la vía pública, sino que podría correr el cuarto de milla en alrededor de 10 segundos en 1968.2
+                En 1969, Plymouth puso mayor énfasis en la prestación y comercialización del rendimiento. Una nueva opción fue el Mod Top, un techo de vinilo cubierto con un motivo floral, disponible en 1969 y 1970. Plymouth lo vendió como un paquete con inserciones en el panel del asiento y la puerta hecho en el mismo patrón.7
+                El Barracuda fue vendido por un precio base de $2.512 dólares.
+                
+                La versión 1969 del motor 383 fue actualizada para incrementar la potencia de salida a 330php (250kW), y fue lanzado con el nombre de 'Cuda. El 'Cuda, basado en la opción Fórmula S, estaba disponible en versiones de motor 340, 383 y la nueva versión Super Commando V8 440 ci de 1969.
+                
+                </p>
+
+        <div style="align-items: center; justify-content: center;">
+          <img src="../../images/Barracuda2.jpg" alt="Plymouth Barracuda 1969" class="img-fluid">
+          <div class="container">
+            <h5 style="padding-left:25% ;"> Sonido del Plymouth Barracuda 1969</h5>
+            <div class="d-grid gap-2">
+                <button class="btn btn-outline-secondary" onclick="soundBarracuda()">
+                <img class="Musi-Off" src="../../images/sinSonido.png" style="height: 50px ;">
+                <audio id="Audio-Barracuda"></audio>
+                </button>
+            </div>
+          </div> 
+        </div>
+
+      
+    </div>
+    
+  </main>
+
+  
+  
+
+  <main class="my-5 d-xxl-none d-xl-none d-lg-none d-md-none">
     <div class="container">
       <div class="row">
-        <h1>ESPECIFICACIONES</h1>
+        <h1 style="padding-left: 1.5cm;">ESPECIFICACIONES</h1>
         <div class="col-md-5">
             <p class="mt-4">En 1968, el motor 273 fue reemplazado por un motor Chrysler LA de 318 (318 plgs³) (5.2 L) como la versión más pequeña de V8 disponible, y apareció el motor LA 340 (5.6 L) LA de cuatro cuerpos. El motor 383 Super Commando engine fue actualizado con el árbol de levas y culata de la Road Runner y Super Bee, pero los colectores de escape más específicos y restrictivos para este tipo de vehículos limitó su salida a 300 bhp (220 kW).6
                 También en 1968, Chrysler hizo aproximadamente 50 fastback Barracudas equipados con motores Chrysler Hemi 426 (7.0 L) para carreras de drag Super Stock. Estos autos eran ensamblados por «Hurst Performance» y contaban con elementos ligeros como el vidrio Chemcor, guardabarros delanteros de fibra de vidrio, asientos ligeros, equipo de sonido y otros detalles como los asientos traseros fueron omitidos. Incluía una etiqueta que decía que el vehículo no era apto para su uso en la vía pública, sino que podría correr el cuarto de milla en alrededor de 10 segundos en 1968.2
@@ -64,6 +149,7 @@
                 El Barracuda fue vendido por un precio base de $2.512 dólares.
                 
                 La versión 1969 del motor 383 fue actualizada para incrementar la potencia de salida a 330php (250kW), y fue lanzado con el nombre de 'Cuda. El 'Cuda, basado en la opción Fórmula S, estaba disponible en versiones de motor 340, 383 y la nueva versión Super Commando V8 440 ci de 1969.
+                
                 </p>
         </div> 
         <div class= "col-md-7">
@@ -84,6 +170,7 @@
     </div>
     
   </main>
+
   <script>
     var nav = document.querySelector('nav');
   

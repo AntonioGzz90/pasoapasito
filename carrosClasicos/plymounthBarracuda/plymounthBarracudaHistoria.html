@@ -6,35 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/bootstrap.css"/>
     <link rel="stylesheet" href="../../css/csFondosCarros.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!--<link rel="stylesheet" href="css/bootstrap.min.css"/>-->
     <title>Document</title>
 </head>
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"></a>
-      <a href="../../index.html"><img src="../../images/logoChido.png" alt="Logo Museo" width="100" height="100"></a>
+  <nav style=" background-blend-mode:darken; background-color: rgba(94, 89, 89, 0.5);" class="navbar fixed-top navbar-expand-lg navbar-dark p-md-2">
+    <div  class="container-fluid">
+      <a class="navbar-brand d-lg-none" href="../../index.html"><img src="../../images/logoChido.png" alt="Logo Museo" ></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../../carrosClasicos.html" style="color:white;" >Prueba</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="../../carrosClasicos.html" style="color:white;" >Carros Clasicos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="../../carrosDeportivos.html" style="color:white;">Carros deportivos</a>
           </li>
+          <li class="nav-item"><a class="navbar-brand d-none d-lg-block" href="../../index.html"><img src="../../images/logo.png" alt="Logo Museo"></a></li>
+
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="../../carrosElectricos.html" style="color:white;">Carros electricos</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../../carrosElectricos.html" style="color:white;">Prueba</a>
+          </li>
+
+          <li class="nav-item">
+            <a  href="formulario.php"> 
+              <button type="button" class="btn btn-danger">Danos tu opinion</button>
+            </a>            
+          </li>
+
       </div>
-      <a href="formulario.php"> 
-        <button type="button" class="btn btn-danger">Danos tu opinion</button>
-      </a>
+
     </div>
   </nav>
-
   <!--<div class="coverIndex d-flex flex-column mb-3 justify-content-center align-items-center flex column">
     <h1 > Museo </h1>
     <p> Los mejores carros, en el mejor museo </p>
@@ -55,22 +67,39 @@
 
   <main class="my-5">
     <div class="container">
-      <div class="row">
-        <div class= "col-md-7">
-          <img src="../../images/Barracuda1.jpg" alt="Plymouth Barracuda 1969" class="img-fluid">
-        </div>
-        <div class="col-md-5">
-          <h1>HISTORIA</h1>
-          <P class="mt-4">El Plymouth Barracuda es un automóvil de dos puertas que fue fabricado por la Plymouth (división de la Chrysler) entre 1964 y 1974. La primera generación del Barracuda, un fastback cupé basado en el Plymouth Valiant, tenía un distintivo vidrio envolvente y estuvo disponible desde 1964 hasta 1966.
-            La segunda generación del Barracuda (1967-1969), aunque todavía estaba basado en el Valiant, fue rediseñado en gran medida. Los vehículos de segunda generación estaban disponibles en versiones fastback, sedán y descapotables.
-            El Barracuda de 1970-1974 tenía una plataforma E de Chrysler, ya no basada en el Valiant. Estaba disponible como cupé y descapotable, ambos muy diferentes a los modelos anteriores.
-            <br> <br> El estilo del nuevo Barracuda fue diseñado por John E. Herlitz y John Samsen.Era menos rectilíneo que el Valiant, con contornos laterales estilo de botella de Coca-Cola. El diseño incluía un panel posterior de la cubierta cóncava, abertura más amplia de las ruedas, cristales laterales curvos y pilares del techo en forma de curva S en el Sedán.
-            La parte trasera del techo en el cupé fastback fue más racional, y el vidrio trasero, inclinado en un ángulo sensiblemente horizontal, fue mucho menor en comparación con la del modelo anterior. Además, el uso de cromo en la chapa externa fue más moderado.
-             </P>
-        </div>  
+      <div class="my-5 ">
+        <h1 class="d-lg-none text-center ">HISTORIA</h1>
+        <img style="width:100%; height:100%;" src="../../images/Barracuda1.jpg" alt="Chevrolet Nova II SS Coupe de 1966" class="d-lg-none d-sm-block rounded mx-auto d-block">  
       </div>
+      <div class="my-5 ">
+          
+        
+        <img style="width:50%; height:50%; padding-right: 0.5cm; float: left;" src="../../images/Barracuda1.jpg" alt="Plymouth Barracuda 1969" class="d-none d-lg-block">
+        
+        <h1 class="d-none d-sm-block d-md-none d-lg-block d-sm-none text-center">HISTORIA</h1>
+        <P class="mt-2 text-justify">El Plymouth Barracuda es un automóvil de dos puertas que fue fabricado por la Plymouth (división de la Chrysler) entre 1964 y 1974. La primera generación del Barracuda, un fastback cupé basado en el Plymouth Valiant, tenía un distintivo vidrio envolvente y estuvo disponible desde 1964 hasta 1966.
+          La segunda generación del Barracuda (1967-1969), aunque todavía estaba basado en el Valiant, fue rediseñado en gran medida. Los vehículos de segunda generación estaban disponibles en versiones fastback, sedán y descapotables.
+          El Barracuda de 1970-1974 tenía una plataforma E de Chrysler, ya no basada en el Valiant. Estaba disponible como cupé y descapotable, ambos muy diferentes a los modelos anteriores.
+          <br> El estilo del nuevo Barracuda fue diseñado por John E. Herlitz y John Samsen.Era menos rectilíneo que el Valiant, con contornos laterales estilo de botella de Coca-Cola. El diseño incluía un panel posterior de la cubierta cóncava, abertura más amplia de las ruedas, cristales laterales curvos y pilares del techo en forma de curva S en el Sedán.
+          La parte trasera del techo en el cupé fastback fue más racional, y el vidrio trasero, inclinado en un ángulo sensiblemente horizontal, fue mucho menor en comparación con la del modelo anterior. Además, el uso de cromo en la chapa externa fue más moderado. El diseño incluía un panel posterior de la cubierta cóncava, abertura más amplia de las ruedas, cristales laterales curvos y pilares del techo en forma de curva S en el Sedán.
+          La parte trasera del techo en el cupé fastback fue más racional, y el vidrio trasero, inclinado en un ángulo sensiblemente horizontal, fue mucho menor en comparación con la del modelo anterior. Además, el uso de cromo en la chapa externa fue más moderado.</P>
+      </div>
+   
+
+      
     </div>
   </main>
+  <footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead"> Copyright &copy; 2022 Paso a Pasito</p>
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i id="iconArriba" class="bi bi-arrow-up h1"></i>
+        
+      </a>
+    </div>
+
+    
+  </footer>
   <script>
     var nav = document.querySelector('nav');
   
